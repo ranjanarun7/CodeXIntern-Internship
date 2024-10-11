@@ -1,0 +1,107 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container styling */
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+/* Input section styling */
+.input-section {
+  margin-bottom: 20px;
+}
+
+#todo-input {
+  padding: 10px;
+  width: 70%;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#add-todo {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+#add-todo:hover {
+  background-color: #218838;
+}
+
+/* Todo list styling */
+#todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.todo-item.completed {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.todo-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.complete-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.complete-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.update-btn {
+  background-color: #ffc107;
+  color: black;
+}
+
+.update-btn:hover {
+  background-color: #e0a800;
+}
